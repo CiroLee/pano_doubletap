@@ -7,5 +7,5 @@ src/目录中包含dblclick.js、doubletap.js、doubletap.mobile.js，分别是k
 使用方法
 ----
 在主文件tour.xml中引入插件：
-``xxml
+```xxml
   <plugin name="doubletap" keep="true" url="src/doubletap.mobile.js" ondbltap="togglespot()" />
