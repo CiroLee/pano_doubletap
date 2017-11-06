@@ -77,10 +77,10 @@
 	<style name="cus_style" url="skin/vtourskin_mapspot.png" scale="1" distorted="true" />
 
 	<!--PC,移动端兼容测试-->
-	<!-- <plugin name="doubletap" keep="true" url="src/doubletap.js" ondbltap="togglespot()" /> -->
+	<plugin name="doubletap" keep="true" url="src/doubletap.js" ondbltap="togglespot()" />
 	
 	<!--移动端测试,仅在移动端下有效-->
-	<plugin name="doubletap" keep="true" url="src/doubletap.mobile.js" ondbltap="togglespot()" />
+	<!-- <plugin name="doubletap" keep="true" url="src/doubletap.mobile.js" ondbltap="togglespot()" /> -->
 
 	<action name="togglespot" >
 
