@@ -9,3 +9,5 @@ src/目录中包含dblclick.js、doubletap.js、doubletap.mobile.js，分别是k
 在主文件tour.xml中引入插件：
 ```xxml
   <plugin name="doubletap" keep="true" url="src/doubletap.mobile.js" ondbltap="togglespot()" />
+ ```
+ ondbltap为注册的事件，用于调用双击自定义事件。
