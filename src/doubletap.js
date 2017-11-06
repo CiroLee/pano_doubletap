@@ -66,7 +66,7 @@ var krpanoplugin= function(){
         //移动端双击
 		function doubletap(e){
 			if(e.touches.length > 1){
-				alert("multi-touch")
+				console.log("multi-touch");
 			}
 			else{
 				if(pretap.starttime == null){
